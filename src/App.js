@@ -16,12 +16,6 @@ const ContactDe = () => <div>Kontakt (DE)</div>;
 function App() {
   return (
     <Router>
-      <nav>
-      <Link to="/">Strona główna</Link> | 
-          <Link to="/about">O nas</Link> | 
-          <Link to="/services">Usługi</Link> | 
-          <Link to="/contact">Kontakt</Link>
-      </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
